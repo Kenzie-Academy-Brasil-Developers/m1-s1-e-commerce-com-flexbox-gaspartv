@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menuHeader {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuEsquerda {
+    display: flex;
+    align-items: center;
+}
+
+.menuEsquerda h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menuEsquerda ul {
+    display: flex;
+    gap: 31px;
+    list-style: none;
+}
+
+.menuLink a {
+    text-decoration: none;
+    color: #585E65;
+}
+
+.menuLink a:hover {
+    color: #000000;
+}
+
+.menuDireita a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #4C6EF5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 11px 35px;
+}
+
+.menuDireita a:hover {
+    background-color: #0033ff;
+}
+
+main {
+    width: 100%;
+    padding-top: 30px;
+    background-color: #f2f2f2;
+}
+
+.catalogo {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.boxProduto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    width: 24%;
+}
+
+.boxProdutoInfo {
+    text-align: center;
+}
+
+.boxProdutoInfo img {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.boxProdutoButton {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.boxProdutoButton p {
+    font-weight: 600;
+}
+
+.boxProdutoButton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #4C6EF5;
+    border-radius: 8px;
+    height: 48px;
+}
+
+.boxProdutoButton a:hover {
+    background-color: #0033ff;
+}
