@@ -65,10 +65,11 @@ main {
 
 .catalogo {
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+    gap: 10px;
 }
 
 .boxProduto {
@@ -80,6 +81,7 @@ main {
     margin-bottom: 16px;
     border-radius: 8px;
     width: 24%;
+    min-width: 288px;
 }
 
 .boxProdutoInfo {
